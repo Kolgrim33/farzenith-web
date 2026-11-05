@@ -178,8 +178,8 @@ with gr.Blocks(title="FarZenith") as app:
     with gr.Row(equal_height=False):
         with gr.Column(scale=3):
             bot = gr.Chatbot(show_label=False, height=440, elem_classes="fz-chat",
-                             placeholder="Ask a question below. You can follow up, for example "
-                                         "\u201cWhat about the Moon?\u201d")
+                             placeholder="Ask a question below. To follow up, change one number: after the ISS, "
+                                         "try \u201cWhat about at 2000 km?\u201d")
             thinking = gr.HTML(SPINNER, visible=False)
             q = gr.Textbox(show_label=False, placeholder="How long does the ISS take to orbit Earth?",
                            submit_btn="Ask", max_length=1000, elem_classes="fz-input")

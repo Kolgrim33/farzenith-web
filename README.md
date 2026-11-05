@@ -3,8 +3,8 @@
 A chat page for [FarZenith](https://huggingface.co/Kolgrim/farzenith-small-v1), the Zimbabwean
 Astronomical Society's astronomy model. Ask about orbits, satellites, stars, black holes, the
 expanding universe or Zimbabwe's dark skies. FarZenith picks an experiment, a physics engine
-computes every number, and FarZenith explains the result. Follow-up questions keep the
-conversation's context.
+computes every number, and FarZenith explains the result. Follow-ups that change one number
+("What about at 2000 km?") keep the conversation's context.
 
 The model runs in NumPy (`zenith.serve.lite`), so the app needs no PyTorch and fits a 512 MB server.
 
